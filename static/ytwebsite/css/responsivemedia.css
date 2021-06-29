@@ -1,0 +1,32 @@
+/* ye wala title k liye banaya hai jo youtube video k upper hoga*/
+ @media screen and (min-width: 500px) {
+
+      /*ye tab tak valid hoga jab tak minimum-width-500px hogi or maximum-width-500 se jada hogi , inshort laptop,tab devices k liye*/
+      p.example {
+        font-size: 3rem;
+      }
+      p.exampletitlemodal {
+        font-size: 1rem;
+      }
+      
+      #img1,#img2,#img3{
+        height:500px;
+      }
+      
+    }
+
+    @media screen and (max-width: 500px) {
+
+      /*ye tab tak valid hoga jab tak maximum-width-500px hogi or minumum-width-500 se kam hogi, inshort mobile devices k liye*/
+         p.example {
+        font-size: 1.5rem;
+      }
+      p.exampletitlemodal {
+        font-size: 0.875rem;
+      }
+      #img1,#img2,#img3{
+        height:200px;
+      }
+      
+    }
+
